@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.is4448_117309293_ca2">
+    <!-- this is the internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IS4448_117309293_CA2">
+        <activity android:name=".UpdateHeroActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Hero List" />
+        <activity
+            android:name=".CountryListActivity"
+            android:label="Global Covid-19 Statistics"
+            android:parentActivityName=".Covid19Activity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Covid19Activity"
+            android:label="Ireland Covid-19 Statistics" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

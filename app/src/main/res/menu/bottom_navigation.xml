@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navHome"
+        android:icon="@drawable/ic_home_white"
+        android:title="Home"/>
+
+    <item android:id="@+id/navHero"
+        android:icon="@drawable/ic_movies_white"
+        android:title="Heroes"/>
+
+    <item android:id="@+id/navCovid19"
+        android:icon="@drawable/ic_coronavirus_white"
+        android:title="Covid-19"/>
+
+
+</menu>

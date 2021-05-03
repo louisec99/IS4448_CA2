@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IS4448_117309293_CA2</string>
+
+    <!-- defining the array for our spinner -->
+    <array name="teams">
+        <item>Avengers</item>
+        <item>Justice League</item>
+        <item>X-Men</item>
+        <item>Fantastic Four</item>
+    </array>
+
+</resources>
